@@ -6,7 +6,6 @@ Discord bot for announcing manga and novel releases. Posts clean embeds with cov
 
 - Release announcements with covers, thumbnails, color themes and link buttons
 - "Get Notifications" button that hands out a per-series role, so you can ping only the people following that title
-- Auto-fill from an EZ Manga series URL (`/quickmanga`)
 - Image cards for single or multi-series announcements
 - Command logging to a dedicated channel, with owner-only management commands
 
