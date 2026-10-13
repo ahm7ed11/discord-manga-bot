@@ -1,0 +1,24 @@
+{
+  "name": "discord-manga-bot",
+  "version": "2.0.0",
+  "description": "Discord bot for manga and novel release announcements with role-based update pings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node scripts/register.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": ["discord", "discord.js", "bot", "manga", "announcements"],
+  "license": "MIT",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.53",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
